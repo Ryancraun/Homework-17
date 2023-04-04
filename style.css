@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+nav{
+    display: flex;
+    width: 73%;
+    margin: auto;
+    padding: 1%
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(168, 105, 105);
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+
+}
+
+nav ul li a:hover{
+    color: rgb(0, 32, 136);
+    transition: .2s;
+    transform: scale(2, 2);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(60, 0, 224);
+
+}
+
+.detel{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel{
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.navBar{
+    float: right;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 3px;
+    color: white;
+    display: inline-flex;
+    padding-right: 100%;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
